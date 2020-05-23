@@ -1,0 +1,237 @@
+
+/* Header starts here*/
+#header {
+	background-color: #6A1111;
+	height: 10%;
+	display: flex;	
+}
+
+#logo {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+}
+
+#banner {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+}
+
+.logo {
+	width: 60%;
+	height: auto;
+	margin: 5% 10% 5% 0;
+}
+
+.banner {
+	width: 100%;
+	height: auto;
+	margin: 5%;
+	object-fit: fill;
+}
+
+#navbar {
+	background-color: black;
+}
+
+#navbar ul {
+	list-style: none;
+  	text-align: center;
+  	padding: 0.5%;
+  	margin: 0;
+ 	display: flex;
+}
+
+#navbar li {
+	padding: 0.5rem;
+	font-size: 150%;
+}
+
+#navbar a {
+	text-decoration: none;
+	color: white;
+}
+/* Header ends here*/
+
+#topnews {
+	background-color: #D0CDCD;
+	margin: 0 2%;
+}
+
+#main-container1 {
+	
+	display: flex;
+}
+
+#news-container1 {
+	width: 90%;
+}
+
+#banner2-container {
+	width: 25%;
+	display: flex;
+	justify-content: center;
+}
+
+#banner2-container .banner2 {
+	object-fit: fill;
+}
+
+#container1 {
+	width: 100%;
+	display: flex;
+}
+
+#news1, #news2, #news3 {
+	width: 33%;
+	margin: 0 1%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#news1, #news2, #news3, img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+#popular {
+	background-color: #D0CDCD;
+	width: 100%;
+	margin: 0 0.5%;
+}
+
+#container2 {
+	width: 100%;
+	display: flex;
+}
+
+#news4, #news5, #news6 {
+	width: 33%;
+	margin: 0 1%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#news4, #news5, #news6, img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+#banner3-container {
+	height: 10vw;
+	margin: 2%;
+	display: flex;
+	justify-content: center;
+}
+
+#banner3-container .banner3 {
+	object-fit: fill;
+	width: 90%;
+	margin: 0;
+	padding: 0;
+}
+
+#main-container2 {
+	margin: 0 2% 0 2%;
+	display: flex;
+}
+
+#news-container2 {
+	width: 90%;
+	margin: 0 2%;
+}
+
+#banner4-container {
+	width: 25%;
+	margin-bottom: 2%;
+	display: flex;
+	justify-content: center;
+}
+
+#banner4-container .banner4 {
+	object-fit: fill;
+	width: 50%;
+	padding: 0;
+}
+
+#container3, #container4 {
+	display: flex;
+	margin: 2%;
+}
+
+#container3 {
+	width: 90%;
+	display: flex;
+}
+
+#news7, #news8 {
+	width: 50%;
+	margin: 0 1%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#news7, #news8, img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+#container4 {
+	width: 90%;
+	display: flex;
+}
+
+#news9, #news10 {
+	width: 50%;
+	margin: 0 1%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#news9, #news10, img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+.article {
+	text-decoration: none;
+	color: white;
+}
+/* Footer starts here*/
+#footer {
+	background-color: black;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#footerlogo {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footerlogo {
+	width: 20%;
+	margin-right: 2%;
+}
+
+#footertext {
+	display: flex;
+	justify-content: center;
+}
+
+.footertext {
+	font-size: 120%;
+	color: white;
+}
+/* Footer ends here*/

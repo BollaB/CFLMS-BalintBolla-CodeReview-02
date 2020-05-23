@@ -1,0 +1,175 @@
+/* Header starts here*/
+#header {
+	background-color: #6A1111;
+	height: 10%;
+	display: flex;	
+}
+
+#logo {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+}
+
+#banner {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+}
+
+.logo {
+	width: 60%;
+	height: auto;
+	margin: 5% 10% 5% 0;
+}
+
+.banner {
+	width: 100%;
+	height: auto;
+	margin: 5%;
+	object-fit: fill;
+}
+
+#navbar {
+	background-color: black;
+}
+
+#navbar ul {
+	list-style: none;
+  	text-align: center;
+  	padding: 0.5%;
+  	margin: 0;
+ 	display: flex;
+}
+
+#navbar li {
+	padding: 0.5rem;
+	font-size: 150%;
+}
+
+#navbar a {
+	text-decoration: none;
+	color: white;
+}
+/* Header ends here*/
+
+#container {
+	margin: 1%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#news1, #news2, #news3, #news4, #news5, #news6 {
+	width: 33%;
+	margin: 1%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#news1, #news2, #news3, #news4, #news5, #news6, img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+#news7, #news8, #news9, #news10 {
+	width: 33%;
+	margin: 1%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#news7, #news8, #news9, #news10, img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+/* Home page style */
+
+#link {
+	display: flex;
+	justify-content: center;
+	margin: 5%;
+}
+
+.image {
+	margin: 1%;
+	display: flex;
+	justify-content: center;
+}
+
+.image img {
+	justify-content: center;
+}
+
+/* Tech page style */
+
+#container-tech {
+	margin: 5%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+
+#news7, #news8, #news9, #news10 {
+	width: 33%;
+	margin: 1%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#news7, #news8, #news9, #news10, img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+/* Culture page style */
+
+h1 {
+	text-align: center;
+}
+
+/* Video page style */
+
+#video {
+	display: flex;
+	justify-content: center;
+	margin: 10%;
+}
+
+/* Footer starts here*/
+#footer {
+	background-color: black;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#footerlogo {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footerlogo {
+	width: 20%;
+	margin-right: 2%;
+}
+
+#footertext {
+	display: flex;
+	justify-content: center;
+}
+
+.footertext {
+	font-size: 120%;
+	color: white;
+}
+/* Footer ends here*/
