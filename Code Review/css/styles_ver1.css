@@ -250,11 +250,69 @@
 	#banner {
 		display: none;
 	}
+	
+	#banner2-container {
+		display: none;
+	}
+
+	#banner3-container {
+		display: none;
+	}
+
+	#banner4-container {
+		display: none;
+	}
 
 	#navbar ul {
 		display: flex;
 		justify-content: center;
 	}
 
+	#navbar li {
+		font-size: 120%;
+	}
 
+	#container1 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	#news3 {
+		margin-top: 2%;
+	}
+
+	#container2 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	#news6 {
+		margin-top: 2%;
+	}
+
+	#footerlogo {
+	width: 100%;
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	}
+	
+	.footerlogo {
+		width: 50%;
+		height: 70%;
+	}
+
+	.footertext {
+	font-size: 100%;
+	}
+
+	h2 {
+		font-size: 100%;
+	}
+
+	h3 {
+		font-size: 80%;
+	}
 }
